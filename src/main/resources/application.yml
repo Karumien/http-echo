@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: echo-service
+    response: ${RESPONSE:BASE}
+  profiles:
+    include: microservice
+server:  
+  port: ${PORT:5678}
